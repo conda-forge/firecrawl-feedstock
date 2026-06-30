@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.31.0"
+  version: "1.17.0"
 
 package:
   name: firecrawl
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/firecrawl/firecrawl-${{ version }}.tar.gz
-  sha256: a365de1e27af5188b805ed3be507fce3c409d118f3da4634947180b71adca8ad
+  sha256: 71d54390bc229e70f536b34d0365eec9d59b4f4cab84670a6f3016a612dd79ca
 
 build:
   number: 0
@@ -25,12 +25,10 @@ requirements:
   run:
     - python >=${{ python_min }}
     - requests
-    - httpx
     - python-dotenv
     - websockets
     - nest-asyncio
-    - pydantic >=2.0
-    - aiohttp
+    - pydantic >=2.10.3
 
 tests:
   - python:
