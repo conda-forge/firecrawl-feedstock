@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.35.0"
+  version: "4.35.1"
 
 package:
   name: firecrawl
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/firecrawl/firecrawl-${{ version }}.tar.gz
-  sha256: 9749a3cf757b41c386b181d2d919ee6efd4400be941d474281734356df302499
+  sha256: 0769dc72c9654a703a9ffaa16007ec6f7f32165c64f9557c484b2ab3abbcc25d
 
 build:
   number: 0
